@@ -379,22 +379,21 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m                                                                                              
-      \033[1;32m          AAA                                                   lllllll                                    
-    \033[1;33m           A:::A                                                  l:::::l                                    
-   \033[1;32m           A:::::A                                                 l:::::l                                    
-     \033[1;33m        A:::::::A                                                l:::::l                                    
-  \033[1;32m          A:::::::::A          rrrrr   rrrrrrrrr       ssssssssss    l::::l   aaaaaaaaaaaaa  nnnn  nnnnnnnn    
-   \033[1;33m        A:::::A:::::A         r::::rrr:::::::::r    ss::::::::::s   l::::l   a::::::::::::a n:::nn::::::::nn  
- \033[1;32m         A:::::A A:::::A        r:::::::::::::::::r ss:::::::::::::s  l::::l   aaaaaaaaa:::::an::::::::::::::nn 
- \033[1;33m        A:::::A   A:::::A       rr::::::rrrrr::::::rs::::::ssss:::::s l::::l            a::::ann:::::::::::::::n
-   \033[1;32m     A:::::A     A:::::A       r:::::r     r:::::r s:::::s  ssssss  l::::l     aaaaaaa:::::a  n:::::nnnn:::::n
- \033[1;33m      A:::::AAAAAAAAA:::::A      r:::::r     rrrrrrr   s::::::s       l::::l   aa::::::::::::a  n::::n    n::::n
- \033[1;32m     A:::::::::::::::::::::A     r:::::r                  s::::::s    l::::l  a::::aaaa::::::a  n::::n    n::::n
-  \033[1;33m   A:::::AAAAAAAAAAAAA:::::A    r:::::r            ssssss   s:::::s  l::::l a::::a    a:::::a  n::::n    n::::n
-  \033[1;32m  A:::::A             A:::::A   r:::::r            s:::::ssss::::::sl::::::la::::a    a:::::a  n::::n    n::::n
-  \033[1;33m A:::::A               A:::::A  r:::::r            s::::::::::::::s l::::::la:::::aaaa::::::a  n::::n    n::::n
- \033[1;32m A:::::A                 A:::::A r:::::r             s:::::::::::ss  l::::::l a::::::::::aa:::a n::::n    n::::n
- \033[1;33mAAAAAAA                   AAAAAAArrrrrrr              sssssssssss    llllllll  aaaaaaaaaa  aaaa nnnnnn    nnnnnn
+            AAA                                                   lllllll                                    
+           A:::A                                                  l:::::l                                             A:::::A                                                 l:::::l                                    
+          A:::::::A                                                l:::::l                                    
+         A:::::::::A          rrrrr   rrrrrrrrr       ssssssssss    l::::l   aaaaaaaaaaaaa  nnnn  nnnnnnnn  
+	 A:::::A:::::A         r::::rrr:::::::::r    ss::::::::::s   l::::l   a::::::::::::a n:::nn::::::::nn  
+        A:::::A A:::::A        r:::::::::::::::::r ss:::::::::::::s  l::::l   aaaaaaaaa:::::an::::::::::::::nn 
+        A:::::A   A:::::A       rr::::::rrrrr::::::rs::::::ssss:::::s l::::l            a::::ann:::::::::::::::n
+.      A:::::A     A:::::A       r:::::r     r:::::r s:::::s  ssssss  l::::l     aaaaaaa:::::a  n:::::nnnn:::::n
+      A:::::AAAAAAAAA:::::A      r:::::r     rrrrrrr   s::::::s       l::::l   aa::::::::::::a  n::::n    n::::n
+     A:::::::::::::::::::::A     r:::::r                  s::::::s    l::::l  a::::aaaa::::::a  n::::n    n::::n
+    A:::::AAAAAAAAAAAAA:::::A    r:::::r            ssssss   s:::::s  l::::l a::::a    a:::::a  n::::n    n::::n
+   A:::::A             A:::::A   r:::::r            s:::::ssss::::::sl::::::la::::a    a:::::a  n::::n    n::::n 
+   A:::::A               A:::::A  r:::::r            s::::::::::::::s l::::::la:::::aaaa::::::a  n::::n    n::::n
+   A:::::A                 A:::::A r:::::r             s:::::::::::ss  l::::::l a::::::::::aa:::a n::::n    n::::n
+   AAAAAAA                   AAAAAAArrrrrrr              sssssssssss    llllllll  aaaaaaaaaa  aaaa nnnnnn    nnnnnn
                                                                                                                 
                                                                                                                 
                                                                                                                 
